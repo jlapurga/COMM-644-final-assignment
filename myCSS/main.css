@@ -1,0 +1,122 @@
+/*  ===============  HEADER  ===============  */
+.topnav, .sidenav {
+    font-weight:bold
+}
+.topnav a:hover, .sidenav a:hover {
+    background-color:coral;
+    color:white;
+}
+.topnav img, .sidenav img {
+    width: 200px;
+}
+
+/*  ===============  HEADER  ===============  */
+
+.heroParallax {
+    background-image: url(/images/festival7.jpg);
+    height:500px;
+}
+.heroParallax h1 {
+    padding: 20px 50px;
+    background-color: rgba(0,0,0, .6)
+}
+#heroParallaxDestinations { background-image: url(/images/chiangMai.jpg); }
+#heroParallaxFood { background-image: url(/images/food.jpg) }
+#heroParallaxActivities { background-image: url(/images/festival6.jpg) }
+#heroParallaxResources { background-image: url(/images/resources.jpg) }
+#heroParallaxTravelTips { background-image: url(/images/travelTips.jpg) }
+.side-bar-right {
+    background-image: url(../images/backgroundAffix.jpg);
+}
+.clear {
+    clear:both;
+}
+.image {
+    display:block;
+    width: 75%;
+    margin: 0 auto;
+
+}
+.block-image {
+    text-align:center;
+}
+.float-right {
+    display:block;
+    float:right;
+    margin:5px 0 0 5px;
+}
+.float-left {
+    display:block;
+    float:left;
+    margin:5px 5px 0 0;
+}
+/*  ===============  FOOTER  ===============  */
+footer {
+    margin: 0 auto;
+}
+footer .row { padding:0; }
+footer h3 {
+    font-size:150%;
+    color:coral;
+}
+footer ul {
+    list-style:none;
+    text-align:;
+    padding:0;
+    
+}
+footer li {
+    margin: 10px 0 10px 0;
+  
+}
+footer a {
+    color:black;
+    font-weight:bold;
+    font-size:110%;
+    padding: 5px;
+    text-decoration:none;
+    color:white;
+}
+footer a:hover {
+    background-color:coral;
+
+}
+
+.social li {
+    display:inline;
+    margin: 5px;
+    font-size:200%;
+}
+#cuisinePhotos {
+    
+}
+
+
+
+/*global $,jQuery*/
+
+/*
+$(function () {
+    'use strict';
+    var navOffset = $('nav').offset().top;
+    $(window).scroll(function () {
+        var scrollPos = jQuery(window).scrollTop();
+
+        $('nav').wrap('<div class="nav-placeholder"></div>');
+        $('.nav-placeholder').height($('nav').outerHeight());
+
+        if (scrollPos >= navOffset) {
+            $('nav').addClass('fixed');
+        } else {
+            $('nav').removeClass('fixed');
+        }
+    });
+
+});
+
+//.fixed {
+//            position: fixed;
+//            top:0;
+//            width:100%;
+//        }
+*/
